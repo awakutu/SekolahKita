@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "181364912818",
+    "firebase_url": "https://sekolah-kita.firebaseio.com",
+    "project_id": "sekolah-kita",
+    "storage_bucket": "sekolah-kita.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181364912818:android:80dbbce99d840467",
+        "android_client_info": {
+          "package_name": "com.sekolah_kita.sekolahkita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181364912818-q9lg9l0qk15g63svrijhfe9tctite5d5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sekolah_kita.sekolahkita",
+            "certificate_hash": "d0a1d075b0af7f8bde51a3ca20ad910892cbf88f"
+          }
+        },
+        {
+          "client_id": "181364912818-i5dok55aj2cql4i20uvtnquj2jah3jso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCPfSfZqoWCl2IEwMzNGAkFE3iCUZqjaY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181364912818-i5dok55aj2cql4i20uvtnquj2jah3jso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

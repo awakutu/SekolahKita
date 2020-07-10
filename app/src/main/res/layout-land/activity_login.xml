@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|start"
+    tools:context=".LoginActivity"
+    tools:ignore="ExtraText">
+
+    <!--Logo Dari Aplikasi Sekolah Kita-->
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="107dp"
+        android:layout_height="94dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginLeft="236dp"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        tools:ignore="ContentDescription,RtlCompat" />
+
+    <!--Tulisan dari Nomor Induk Siswa-->
+    <TextView
+        android:id="@+id/textView_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="156dp"
+        android:text="@string/email" />
+
+    <!--Masukan untuk Nomor Induk Siswa-->
+    <EditText
+        android:id="@+id/editText_Email"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Logo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="-3dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:targetApi="o" />
+
+    <!--Tulisan dari Kata Sandi-->
+    <TextView
+        android:id="@+id/textView_KataSandi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginBottom="104dp"
+        android:text="@string/kata_sandi" />
+
+    <!--Masukan untuk Email-->
+    <EditText
+        android:id="@+id/editTextKataSandi"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_Email"
+        android:layout_marginStart="147dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginTop="-3dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        tools:targetApi="o" />
+    <!--android:layout_marginTop="3-dp"-->
+
+    <!--Button Untuk Daftar-->
+    <Button
+        android:id="@+id/button_Daftar"
+        android:layout_width="147dp"
+        android:layout_height="18dp"
+        android:layout_alignEnd="@+id/editTextKataSandi"
+        android:layout_alignRight="@id/editTextKataSandi"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="66dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/daftar"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light" />
+    <!--Button Untuk Masuk-->
+    <Button
+        android:id="@+id/button_Masuk"
+        android:layout_width="146dp"
+        android:layout_height="19dp"
+        android:layout_alignEnd="@+id/editTextKataSandi"
+        android:layout_alignRight="@+id/editTextKataSandi"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="66dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/masuk"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light" />
+
+    <!--Button Untuk Lupa Sandi-->
+    <Button
+        android:id="@+id/button_LupaSandi"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_alignEnd="@+id/button_Masuk"
+        android:layout_alignRight="@+id/button_Masuk"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="41dp"
+        android:background="?android:attr/windowBackground"
+        android:text="@string/lupa_sandi"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="12sp" />
+
+</RelativeLayout>
